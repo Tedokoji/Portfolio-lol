@@ -1,0 +1,55 @@
+#fader{
+    font-size: 20px;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    animation: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.navbar{
+    width:100vw;
+    height:80px;
+    background-color: #c1d0b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+#iconcontain{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   & a{
+       margin-right: 50px
+   }
+}
+#Tedokoji{
+    margin:10px;
+    opacity: 0.7;
+}
+#fbicon{
+    color: blue;
+    &:hover{
+        opacity: 0.6
+    }
+}
+#githubicon{
+    color: black;
+    &:hover{
+        opacity: 0.6
+    }
+}
+#yticon{
+    color: red;
+    opacity: 0.7;
+
+    &:hover{
+        opacity: 0.6
+    }
+}
+@keyframes fade{
+    50%{opacity:0}
+}

@@ -1,0 +1,9 @@
+.imgslide{
+    width: 100vw;
+    height: 500px;
+    & img{
+        transform: scale(0.99);
+        width: 100vw;
+        height: 700px;
+    }
+}
